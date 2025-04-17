@@ -1,0 +1,212 @@
+@charset "UTF8";
+* {
+    box-sizing: border-box;
+ }
+
+ html {
+    scroll-behavior: smooth;
+  }
+  
+
+ body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    letter-spacing : 0.2em;
+ }
+ header {
+    padding: 30px 4% 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    z-index: 1500;
+ }
+ h1 {
+    margin: 0; padding: 0;
+    font-size: 20px;
+ }
+
+h1 img{
+    width: 200px;
+}
+
+ a {	
+    text-decoration: none;
+    color: #fff;
+ }
+ nav {
+    margin: 0 0 0 auto;
+ }
+ ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+ }
+ li {
+    margin: 0 0 0 40px;
+    font-size: 12px;
+ }
+
+ .listmukou a{
+  pointer-events: none;
+ }
+
+ .list1 a:hover{
+  box-shadow: 2px 4px 7px 0 rgb(255, 255, 255);
+  transform: translateY(-5px);
+  cursor: pointer;
+ }
+
+ .profile2ndpage{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+ }
+ 
+ .profile2ndpage img{
+    max-width: 900px;
+    box-shadow: 12px 14px 7px 0 rgb(79, 79, 79) ;
+    display: block;
+    transition-duration: 0.5s;
+ }
+
+ .profile2ndpage img:hover{
+  transform: scale(1.2,1.2);
+  transition-duration: 0.5s;
+ }
+
+ h2 {
+  margin: auto;
+  font-size: 30px;
+  font-weight: normal;
+  color: #ffffff;
+  padding-top: 300px;
+  text-align: center;
+  border-bottom: #ffffff 1px solid;
+  max-width: 60%;
+  font-family: serif;
+ }
+
+ h3{
+   color:#ffffff;
+   text-align: center;
+   font-family: sans-serif;
+ }
+
+
+ .fade,h2{
+    text-align: center;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes fade{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        opacity: 1;
+  }
+ }
+
+  p{
+    color: #ffffff;
+    font-family: sans-serif;
+  }
+
+  .setumei{
+    max-width: 900px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .box {
+    display:flex;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 1000px;
+  }
+  
+  .text {
+    text-align: center;
+    height: 130px;
+    margin: auto;
+  }
+  
+  
+  .pict {
+    width: 300px;
+    overflow: visible;
+    height: 100%; 
+  }
+  
+  .pict img {
+    width: 300px;
+    height:auto;
+    margin: auto;
+    box-shadow: 12px 14px 7px 0 rgb(79, 79, 79) ;
+    display: block;
+    transition-duration: 0.5s;
+  }
+
+  .pict img:hover{
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
+  }
+
+  .uenimodoru{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .uenimodoru img{
+    max-height: 100px;
+  }
+
+  .kasou-nav{
+    text-align: center;
+    margin:auto;
+  }
+
+  .snsgazou{
+    margin-top: 100px;
+    margin-right: 330px;
+    margin-left: auto;
+    max-width: 900px;
+    text-align: center;
+  }
+
+  .footergazou{
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footergazou img{
+    width: 100px;
+  }
+
+  .shiromozi{
+    color: #ffffff;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 10px;
+  }
+
